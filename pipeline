@@ -29,7 +29,7 @@ pipeline{
         }
         stage('containerization'){
             steps{
-                sh 'docker run -it -d --name c1 -p 9000:80 vinaykoushi/app'
+                sh 'docker run -it -d --name punith -p 9000:80 vinaykoushi/app'
             }
         }
     }
